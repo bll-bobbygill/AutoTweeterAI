@@ -19,8 +19,8 @@ import promptlayer
 import random
 import os
 
-from config import *
-from constants import *
+from config import REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET,REDDIT_USER_AGENT,PROMPT_LAYER_API_KEY,PROMPT_LAYER_API_KEY
+from constants import PROMPTLAYER_TAG,NUM_TWEETS_TO_GENERATE,NUM_TWEETS_TO_SAMPLE,SAMPLE_TWEETS_FILENAME,REDDIT_SAMPLE_SIZE,OPEN_AI_MODEL
 from prompttemplates import *
 from utilities import convertStringToDataArray
 from gsheet import append_to_google_sheet

@@ -1,5 +1,6 @@
 import gspread
-from constants import GOOGLESHEET_ID, GOOGLESHEET_WORKSHEETNAME, GOOGLESHEET_CREDENTIALS_FILE
+from constants import GOOGLESHEET_WORKSHEETNAME, GOOGLESHEET_CREDENTIALS_FILE
+from config import GOOGLESHEET_ID
 from oauth2client.service_account import ServiceAccountCredentials
 
 def append_to_google_sheet(data,spreadsheet_id=GOOGLESHEET_ID, worksheet_name=GOOGLESHEET_WORKSHEETNAME):
